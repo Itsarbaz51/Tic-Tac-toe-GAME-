@@ -1,0 +1,147 @@
+/* 
+body {
+    background-color: brown;
+}
+
+h1 {
+    color: blue;
+    background-color: white;
+    text-align: center;
+}
+
+p {
+    background-color: white;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border : 2px solid black;
+    margin: 4px;
+    text-align: center;
+}
+
+.style {
+    height: 100px;
+    width: 100px;
+    margin: 3px solid red;
+    background-color: purple;
+    color: white;
+    text-align: center;
+   
+}
+
+.myPera {
+    height: 80px;
+    width: 150px;
+    background-color: pink;
+    color: white;
+}
+
+.newClass {
+    background-color: blue;
+}
+
+.btn1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+#div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+} */
+
+/* dark and light mode
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #092430;
+    text-align: center;
+}
+
+
+h1 {
+    color: #edf1f2;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.5);
+}
+
+
+.container {
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.box {
+    height: 18vmin;
+    width : 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(0,0,0,0.5);
+    font-size: 15vmin;
+    color: #b0413e;
+}
+
+#reset,
+#newbtn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 10vmin;
+}
+
+.msg-winnwe {
+    height: 30vmin;
+}
+
+.hide {
+    display: none;
+}
+
+   
